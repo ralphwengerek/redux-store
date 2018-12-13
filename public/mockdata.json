@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Product 1",
+    "price": 12.56,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare mauris a est cursus tempor. Pellentesque commodo tincidunt nisi, quis feugiat mi porta id. Proin magna purus, posuere ut hendrerit at, commodo vel tellus. Mauris pulvinar iaculis justo quis malesuada. Aenean nibh sapien, bibendum pharetra commodo vitae, accumsan et arcu. Praesent turpis risus, blandit et mattis ut, hendrerit non urna.",
+    "imageUrl": "/images/product.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Product 2",
+    "price": 10,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare mauris a est cursus tempor. Pellentesque commodo tincidunt nisi, quis feugiat mi porta id. Proin magna purus, posuere ut hendrerit at, commodo vel tellus. Mauris pulvinar iaculis justo quis malesuada. Aenean nibh sapien, bibendum pharetra commodo vitae, accumsan et arcu. Praesent turpis risus, blandit et mattis ut, hendrerit non urna.",
+    "imageUrl": "/images/product.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Product 3",
+    "price": 6.5,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare mauris a est cursus tempor. Pellentesque commodo tincidunt nisi, quis feugiat mi porta id. Proin magna purus, posuere ut hendrerit at, commodo vel tellus. Mauris pulvinar iaculis justo quis malesuada. Aenean nibh sapien, bibendum pharetra commodo vitae, accumsan et arcu. Praesent turpis risus, blandit et mattis ut, hendrerit non urna.",
+    "imageUrl": "/images/product.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Product 4",
+    "price": 99.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare mauris a est cursus tempor. Pellentesque commodo tincidunt nisi, quis feugiat mi porta id. Proin magna purus, posuere ut hendrerit at, commodo vel tellus. Mauris pulvinar iaculis justo quis malesuada. Aenean nibh sapien, bibendum pharetra commodo vitae, accumsan et arcu. Praesent turpis risus, blandit et mattis ut, hendrerit non urna.",
+    "imageUrl": "/images/product.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Product 5",
+    "price": 55.21,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare mauris a est cursus tempor. Pellentesque commodo tincidunt nisi, quis feugiat mi porta id. Proin magna purus, posuere ut hendrerit at, commodo vel tellus. Mauris pulvinar iaculis justo quis malesuada. Aenean nibh sapien, bibendum pharetra commodo vitae, accumsan et arcu. Praesent turpis risus, blandit et mattis ut, hendrerit non urna.",
+    "imageUrl": "/images/product.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Product 6",
+    "price": 10.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare mauris a est cursus tempor. Pellentesque commodo tincidunt nisi, quis feugiat mi porta id. Proin magna purus, posuere ut hendrerit at, commodo vel tellus. Mauris pulvinar iaculis justo quis malesuada. Aenean nibh sapien, bibendum pharetra commodo vitae, accumsan et arcu. Praesent turpis risus, blandit et mattis ut, hendrerit non urna.",
+    "imageUrl": "/images/product.jpg"
+  }
+]
