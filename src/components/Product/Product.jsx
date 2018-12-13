@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./Product.module.scss";
 
-const Product = ({ addToBasket, product }) => {
+const Product = ({ addToBasket, removeFromBasket, product }) => {
   return (
-    <div className="card">
+    <div className="card large shadowed">
       <div className="section">
         <div className="row">
           <div className="col-md-3">
@@ -19,9 +19,18 @@ const Product = ({ addToBasket, product }) => {
         </div>
         <div className="row">
           <div className="col-md-offset-4">
-            <button className="primary" onClick={() => addToBasket(product)}>
-              Add to basket
-            </button>
+            {addToBasket && (
+              <button className="primary" onClick={() => addToBasket(product)}>
+                Add to basket
+              </button>
+            )}
+            {removeFromBasket && (
+              <button
+                className="primary"
+                onClick={() => removeFromBasket(product)}>
+                Remove from basket
+              </button>
+            )}
           </div>
         </div>
       </div>
