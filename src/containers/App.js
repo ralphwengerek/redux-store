@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-
-import styles from "./App.module.scss";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import ProductListing from "../components/ProductListing/ProductListing";
 import Product from "../components/Product/Product";
@@ -45,8 +43,8 @@ class App extends Component {
   };
 
   removeFromBasket = product => {
-    this.setState({
-      cart: [...this.state.cart.filter(c => c.id !== product.id)]
+    this.setState((prevState, props) => {
+      return { cart: [...prevState.cart.filter(c => c.id !== product.id)] };
     });
   };
 
